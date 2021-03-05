@@ -1,3 +1,5 @@
+$fa-font-path: "./../node_modules/@fortawesome/fontawesome-free/webfonts";
+
 // Colors
 $color-white: #FFFFFF;
 $color-light: #FAFAFA;
@@ -5,10 +7,6 @@ $color-grey: #888888;
 $color-brown: #B18D5B;
 $color-black: #000000;
 
-$theme-colors: (
-        "white": $color-white,
-        "light": $color-light,
-        "grey": $color-grey,
-        "brown": $color-brown,
-        "black": $color-black,
-);
+$background-color: hsl(18, 92%, 95%);
+$secondary-color: hsl(163, 38%, 62%);
+$secondary-color-hover: #4aa48a;

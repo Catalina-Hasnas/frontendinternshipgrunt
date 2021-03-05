@@ -1,6 +1,4 @@
 @import 'variables';
 @import 'bootstrap';
-
-body {
-    color: $color-light;
-}
+@import 'custom';
+@import 'bootstrap-classes';

@@ -12,7 +12,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          "css/main.css": "sass/main.scss",
+          "css/main.css": ["sass/main.scss"],
         },
       },
     },
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
         files: {
           "dist/main.js": ["js/js1.js", "js/js2.js"],
         },
-      }
+      },
     },
     watch: {
       js: {
@@ -45,6 +45,7 @@ module.exports = function (grunt) {
     },
   });
 
-  grunt.registerTask("default", ["sass", "concat"]);
+  
   grunt.registerTask("build-dist", ["sass", "concat"]);
+  grunt.registerTask("default", ["sass", "concat"]);
 };
