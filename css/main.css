@@ -2,6 +2,7 @@
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("../fonts/font.css");
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -11701,11 +11702,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.fa-bars {
-  color: #888; }
-
 header {
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif; }
 
 .info-container {
   min-width: 300px; }
@@ -11715,6 +11714,10 @@ header {
   border: none;
   text-decoration: none;
   color: white; }
+
+.fa_bars--color {
+  color: #888;
+  display: contents; }
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com

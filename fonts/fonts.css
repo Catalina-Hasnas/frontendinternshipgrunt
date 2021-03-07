@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto/Roboto-Regular.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto/Roboto-Medium.ttf);
+  font-weight: 500; }
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto/Roboto-Bold.ttf);
+  font-weight: 700; }
+  @font-face {
+  font-family: "Montserrat";
+  src: url(./Montserrat/Montserrat-Regular.ttf);
+  font-weight: 400; }
