@@ -1,0 +1,55 @@
+// @import 'variables';
+
+a {
+    text-decoration: none !important;
+}
+
+.footer {
+    color: $color-light;
+    background-color: $color-dark;
+}
+
+.footer_link--color {
+    color: $color-light;
+}
+
+.footer_link--color:hover {
+    color: blanchedalmond;
+}
+
+.navbar--right {
+    text-align: right;
+}
+
+.navbar--left {
+    text-align: left;
+}
+
+.navbar--end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar--background-color {
+    background-color: $color-primary;
+}
+
+.search-btn {
+    line-height: 2;
+    padding: 1rem;
+    border-radius: 0rem 0.3rem 0.3rem 0rem !important;
+    text-decoration: none;
+    border: none;
+    background-color: $color-primary;
+    width: 5rem;
+}
+
+.footer-category {
+    font-size: large;
+}
+
+.nav-link--text {
+    font-size: larger;
+    font-weight: 600;
+    color: black !important;
+}

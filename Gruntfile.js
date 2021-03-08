@@ -12,7 +12,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          "css/main.css": ["sass/main.scss"],
+          "_ui/css/main.css": ["_ui-src/sass/main.scss"],
         },
       },
     },
@@ -23,20 +23,20 @@ module.exports = function (grunt) {
       },
       js: {
         files: {
-          "dist/main.js": ["js/js1.js", "js/js2.js"],
+          "_ui/js/main.js": ["_ui-src/js/js1.js", "_ui-src/js/js2.js"],
         },
       },
     },
     watch: {
       js: {
-        files: ["js/*.js"],
+        files: ["_ui-src/js/*.js"],
         tasks: ["concat"],
         options: {
           interrupt: true,
         },
       },
       sass: {
-        files: ["sass/*.scss"],
+        files: ["_ui-src/sass/*.scss"],
         tasks: ["sass"],
         options: {
           interrupt: true,
