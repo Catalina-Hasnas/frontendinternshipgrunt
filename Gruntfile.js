@@ -23,7 +23,7 @@ module.exports = function (grunt) {
       },
       js: {
         files: {
-          "_ui/js/main.js": ["_ui-src/js/js1.js", "_ui-src/js/js2.js"],
+          "_ui/js/main.js": ["_ui-src/js/validation.js", "_ui-src/js/js2.js"],
         },
       },
     },

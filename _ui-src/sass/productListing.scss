@@ -1,0 +1,49 @@
+$primary: #ffcf00;
+$typography-primary: #666666;
+$typography-secondary: #a1a1a1;
+
+@media (min-width: 1200px) {
+  .container-md {
+    max-width: 1420px;
+  }
+}
+
+.btn-addCart {
+  color: white;
+  font-size: 16pt;
+  font-weight: 400;
+  height: 65px;
+}
+
+.fa-star {
+  color: #ffcf00;
+}
+
+.typography {
+  font-family: Lato;
+}
+
+.typography--filter {
+  color: $typography-primary;
+  font-size: 12pt;
+}
+
+.typography--sort {
+  color: $typography-secondary;
+}
+
+.typography--productTitle {
+  font-weight: 600;
+}
+
+.typography--price {
+  font-size: 1.3rem;
+}
+
+.area--productTitle {
+  height: 50px;
+}
+
+.link {
+  color: #006db7;
+}

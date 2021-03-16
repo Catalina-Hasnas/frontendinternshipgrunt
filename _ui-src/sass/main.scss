@@ -1,5 +1,7 @@
-@import 'variables';
+@import 'custom-variables';
+@import 'bootstrap-variables';
 @import 'bootstrap';
-@import 'custom';
+@import 'custom-classes.scss';
 @import 'bootstrap-classes';
+@import 'productListing';
 @import url("../fonts/fonts.css");

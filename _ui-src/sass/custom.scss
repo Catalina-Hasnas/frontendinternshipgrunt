@@ -17,15 +17,11 @@ a {
     color: blanchedalmond;
 }
 
-.navbar--right {
-    text-align: right;
-}
-
 .navbar--left {
     text-align: left;
 }
 
-.navbar--end {
+.navbar--right {
     display: flex;
     justify-content: flex-end;
 }
